@@ -11,9 +11,6 @@ const getTotalRows = list => {
 }
 
 const saveFile = async(doc) => {
-    // const exporter = new docx.LocalPacker(doc);
-    // exporter.packPdf("My Document");
-
     const packer = new docx.Packer();
     let buffer = await packer.toBuffer(doc)
     fs.writeFileSync("My Document.docx", buffer);

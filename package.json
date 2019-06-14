@@ -10,6 +10,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "docx": "^4.7.1"
+        "docx": "^4.1.7"
     }
 }
