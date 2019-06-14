@@ -9,7 +9,7 @@ module.exports = {
             boards: [{
                     BoardName: 'Florida Board of Optometry (partial credit not allowed by this Board)',
                     professions: [{
-                            name: 'Certified Optometrist',
+                            name: 'Certified Optometrist Florida Board of Optometry (partial credit not allowed by this Boar',
                             code: 'OPC',
                             subjectAreas: [
                                 { name: 'HIV/AIDS', code: 'HA' },
